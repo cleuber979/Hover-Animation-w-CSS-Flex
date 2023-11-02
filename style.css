@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+
+        background-image: linear-gradient(rgb(5, 5, 5), rgb(77, 74, 74));
+    
+}
+.redeSocial{
+ font-size: medium;
+ color: white;
+ padding: 20px;
+ padding-right: 10px;
+ position: absolute;
+}
+
+.retangulo{
+    width: 974px;
+    height: 1024px;
+    background:black;
+    margin-top: -19px;
+    margin-left: 245px;
+    max-width: 100%;
+    
+}
+
+.text1{
+    width: 502px;
+    height: 218px;
+    background-color:black;
+    color: white;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 336px;
+    font-family: Heebo;
+    font-size: 35px;
+    max-width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    width: 850px;
+    height: 315px;
+    background-color: black;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 68px;
+
+}
+
+.imagem{
+    margin-top: 5px;
+    width: 145px;
+    height: 260px;
+    transform: .35s;
+    cursor: pointer;
+    
+}
+
+.flex-container:hover > :not(:hover){
+    opacity: .5;
+    transform: scale(0.9);
+}
